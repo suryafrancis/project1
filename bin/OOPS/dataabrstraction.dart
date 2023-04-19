@@ -1,7 +1,6 @@
 
 
-abstract class MyClass {
-  ///abstrast class
+abstract class MyClass {  ///abstrast class
   String data = "hello";
 
   MyClass() {
