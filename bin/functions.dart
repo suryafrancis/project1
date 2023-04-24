@@ -11,7 +11,7 @@ void main() {
 /// 1.function without returntype and parametrs
 
 void funct1(){
-  print("function 1");
+      print("function 1");
 }
 ///2. function without return type and with parameters
 
