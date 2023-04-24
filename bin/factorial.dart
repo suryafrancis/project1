@@ -6,10 +6,10 @@ void main()
   print("enter a number");
   int num=int.parse(stdin.readLineSync()!);
   int fact=1;
-  int i;
+  ///int i;
   ///int num;
 
-  for(i=1;i<=num;i++) {
+  for(int i=1;i<=num;i++) {
     fact = fact * i;
   }
   print(" $num!= $fact  ");

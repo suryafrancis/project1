@@ -1,7 +1,7 @@
 void main() {
   int sum = 0;
-  for(int num = 1; num <= 10; num++){
-    sum = sum + num;
+  for(int num = 1; num <= 20; num++){
+     sum= sum + num;
 }
-print('sum= $sum');
+print('sum= $num');
 }

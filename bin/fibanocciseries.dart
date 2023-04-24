@@ -4,6 +4,8 @@ void main(){
   print("enter a number");
   int num=int.parse(stdin.readLineSync()!);
 
+
+
   int t1 = 0;
   int t2 = 1;
   int t3;
