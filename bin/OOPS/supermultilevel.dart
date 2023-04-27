@@ -8,13 +8,13 @@ class Child extends Father{
   String name="Surya";
 
  void show(){
-   print("My name is $name ${super.name} ${super.name}");
+   print("My name is $name ${super.name} ");
 
  }
 }
-
+  void main(){
   Child obj=Child();
   obj.show();
   Grandfather obj1=Grandfather();
-  print("name is  = ${obj1.name}");
+  print("father name is  ${obj1.name}");
 }
